@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run --browser chrome"
+    "test": "./node_modules/.bin/cypress run --browser chrome",
+    "test:browserstack": "browserstack-cypress run --sync"
   },
   "repository": {
     "type": "git",
