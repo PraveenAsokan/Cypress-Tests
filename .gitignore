@@ -1,3 +1,4 @@
- /log
- /results
+/log
+/results
 /node_modules
+/package-lock.json
