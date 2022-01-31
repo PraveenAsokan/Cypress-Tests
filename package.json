@@ -1,0 +1,27 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PraveenAsokan/Cypress-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PraveenAsokan/Cypress-tests/issues"
+  },
+  "homepage": "https://github.com/PraveenAsokan/Cypress-tests#readme",
+  "devDependencies": {
+    "browserstack-cypress-cli": "^1.11.2",
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
