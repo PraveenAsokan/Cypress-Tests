@@ -1,7 +1,7 @@
 {
     "auth": {
-        "username": "praveenasokan1",
-        "access_key": "JFF7C4oM1JV65HsN8gHU"
+        "username": "REDACTED",
+        "access_key": "REDACTED"
     },
     "browsers": [
         {
@@ -22,7 +22,12 @@
           },
         "project_name": "My sandbox project",
         "build_name": "Build no. 1",
-        "parallels": "1"
+        "parallels": "1",
+        "package_config_options": {
+          "cypress-cucumber-preprocessor": {
+            "nonGlobalStepDefinitions": true
+          }
+        }
     },
     "connection_settings": {
         "local": false,
