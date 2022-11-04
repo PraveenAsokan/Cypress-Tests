@@ -1,7 +1,7 @@
 {
     "auth": {
-        "username": "REDACTED",
-        "access_key": "REDACTED"
+        "username": "praveenasokan1",
+        "access_key": "JFF7C4oM1JV65HsN8gHU"
     },
     "browsers": [
         {
@@ -10,15 +10,21 @@
             "versions": [
                 "latest"
             ]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Monterey",
+            "versions": ["latest"]
         }
     ],
     "run_settings": {
-        "cypress_config_file": "./cypress.json",
-        "cypress_version": "9",
+        "cypress_config_file": "./cypress.config.js",
+        "cypress_version": "10",
         "npm_dependencies": {
-            "cypress-cucumber-preprocessor": "^4.3.1",
-            "browserstack-cypress-cli": "^1.11.2",
-            "cypress": "^9.1.1"
+            "browserstack-cypress-cli": "^1.19.0",
+            "cypress": "^10.11.0",
+            "@badeball/cypress-cucumber-preprocessor": "^13.0.3",
+            "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5"
           },
         "project_name": "My sandbox project",
         "build_name": "Build no. 1",
