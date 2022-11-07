@@ -1,5 +1,5 @@
 
-import { Given, Then } from 'cypress-cucumber-preprocessor/steps';
+import { Given, Then } from '@badeball/cypress-cucumber-preprocessor';
 
 Given('Launch the website', () => {
   cy.visit('https://www.britishgas.co.uk');
